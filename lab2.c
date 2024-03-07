@@ -2,14 +2,8 @@
 #include <stdio.h>
 
 int function(int x){
-    if (x<1)
+        x = x-2;
         return x;
-    else
-    {
-        x=x-2;
-        x=function(x);
-        return x;
-    }
 }
 
 int main(){
